@@ -14,7 +14,7 @@ spec:
     namespace: argocd-test
   syncPolicy:
     syncOptions:
-      - CreateNamespaces=true
+      - CreateNamespace=true
     automated:
       selfHeal: true
       prune: true
