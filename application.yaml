@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/argoproj/argocd-example-apps.git
+    repoURL: https://github.com/Digdarshanoli/newargocd.git
     targetRevision: HEAD
-    path: app
+    path: newargocd
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd-test
